@@ -1,0 +1,128 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo img{
+    width: 20%;
+}
+
+/* Configurações gerais do corpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+/* Estilo do cabeçalho */
+.navbar {
+    background-color: #ff69b4; 
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    color: #fff;
+    font-size: 1.5rem;
+}
+.logo img{
+    width: 20%;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+
+.nav-links .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+    color: #333;
+    border-radius: 0.5rem;
+    top: 100%;
+    left: 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.dropdown-menu li {
+    padding: 0.5rem 1rem;
+}
+
+.dropdown-menu a {
+    color: #333;
+}
+
+.dropdown-menu a:hover {
+    background-color: #ffb6c1; /* Rosa claro */
+}
+/* Estilo do conteúdo principal */
+main {
+    padding: 2rem;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.intro h1 {
+    color: #ff66b2; /* Rosa principal */
+}
+
+.info {
+    margin-bottom: 2rem;
+}
+
+.info h2 {
+    color: #ff66b2; /* Rosa principal */
+}
+
+.info ul {
+    list-style: disc;
+    margin-left: 2rem;
+}
+
+.imagem {
+    text-align: center;
+}
+
+.imagem img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ff66b2; /* Rosa principal */
+    border-radius: 10px;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #ff66b2; /* Rosa principal */
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    position:static;
+}
