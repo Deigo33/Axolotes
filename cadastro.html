@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <!-- Menu Dropdown -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="img/logo.jpg" alt="">
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li class="dropdown">
+                    <a href="sobre.html">Sobre</a>
+                    <ul class="dropdown-menu">
+                        <li><a target="_blank" href="https://www.google.com/search?q=o+que+%C3%A9+axolote">O que são Axolotes?</a></li>
+                        <li><a target="_blank" href="https://mundoeducacao.uol.com.br/biologia/axolote-ambystoma-mexicanum.htm">Habitat</a></li>
+                        <li><a target="_blank" href="https://www.ecycle.com.br/axolote/">Conservação</a></li>
+                    </ul>
+                </li>
+                <li><a href="http://127.0.0.1:5500/index.html#produtos">Produtos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form>
+            <img src="img/logo.jpg" alt="Logo Axolote" class="logo-cadastro">
+            <input type="text" placeholder="Nome" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Senha" required>
+            <input type="password" placeholder="Confirmação de Senha" required>
+            <div class="terms">
+                <input type="checkbox" required>
+                <label>Li e aceito os <a href="termos.html">termos de usuário</a></label>
+            </div>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Axolotes. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
