@@ -20,6 +20,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px; /* Ajuste o valor conforme necessário */
 }
 
 .navbar .logo {
@@ -146,4 +147,5 @@ footer {
     width: 100%;
     bottom: 0;
     position: static;
+    margin-top: 20px; /* Ajuste o valor conforme necessário */
 }
