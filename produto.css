@@ -1,0 +1,205 @@
+/* Menu Dropdown */
+.navbar {
+    background-color: #ff69b4; 
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    color: #fff;
+    font-size: 1.5rem;
+}
+.logo img{
+    width: 20%;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+
+.nav-links .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+    color: #333;
+    border-radius: 0.5rem;
+    top: 100%;
+    left: 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.dropdown-menu li {
+    padding: 0.5rem 1rem;
+}
+
+.dropdown-menu a {
+    color: #333;
+}
+
+.dropdown-menu a:hover {
+    background-color: #ffb6c1; /* Rosa claro */
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #ffe6f2; /* Fundo rosa claro */
+}
+
+.product-container {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.image-section {
+    flex: 1;
+    text-align: center;
+}
+
+#main-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border: 2px solid #ff66b2; /* Bordas rosa */
+    border-radius: 10px;
+}
+
+.thumbnails {
+    margin-top: 10px;
+}
+
+.thumbnail {
+    width: 70px;
+    height: auto;
+    margin: 0 5px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+
+.thumbnail:hover {
+    border: 2px solid #ff66b2; /* Bordas rosa ao passar o mouse */
+}
+
+.details-section {
+    flex: 1;
+    padding-left: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #ff1a75; /* Título em rosa forte */
+}
+
+.description {
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 20px;
+    color: #ff1a75; /* Preço em rosa forte */
+}
+
+.options {
+    margin: 20px 0;
+}
+
+.add-to-cart {
+    padding: 10px 15px;
+    background-color: #ff66b2; /* Botão rosa */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.comments-section {
+    margin-top: 40px;
+}
+
+h2 {
+    color: #ff1a75; /* Título dos comentários em rosa forte */
+}
+
+.comment {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.user-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 2px solid #ff66b2; /* Bordas rosa nas fotos dos usuários */
+}
+
+
+/* Footer */
+footer {
+    background-color: #ff69b4; /* Rosa principal */
+    color: #fff;
+    padding: 2rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    width: 30%;
+    margin-bottom: 1rem;
+}
+
+.footer-section h4 {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin: 0.5rem 0;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.875rem;
+}

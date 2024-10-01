@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto aquario</title>
+    <link rel="stylesheet" href="produto.css">
+</head>
+<body>
+
+
+<!-- Menu Dropdown -->
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="img/logo.jpg" alt="">
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="login.html">Conta</a></li>
+            <li><a href="index.html">Início</a></li>
+            <li class="dropdown">
+                <a href="sobre.html">Sobre</a>
+                <ul class="dropdown-menu">
+                    <li><a target="_blank" href="https://www.google.com/search?q=o+que+%C3%A9+axolote&sca_esv=41706f494ee2e9ff&rlz=1C1CHBD_pt-PTBR1094BR1094&biw=1280&bih=593&sxsrf=ADLYWIKy3W1vT_EgJf4hx-zKr0jB0ARZzQ%3A1725370533205&ei=pRDXZt-lDNSP5OUP0Jza8A4&ved=0ahUKEwifjPON8qaIAxXUB7kGHVCOFu4Q4dUDCBA&uact=5&oq=o+que+%C3%A9+axolote&gs_lp=Egxnd3Mtd2l6LXNlcnAiEG8gcXVlIMOpIGF4b2xvdGUyChAAGIAEGBQYhwIyBhAAGBYYHjIGEAAYFhgeMggQABgWGB4YDzIIEAAYgAQYogRIxkdQlwVY10RwBngBkAEEmAGTAqABsRaqAQYwLjIxLjG4AQPIAQD4AQGYAhagApwSqAIRwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAg4QABiwAxjkAhjWBNgBAcICExAuGIAEGLADGEMYyAMYigXYAQLCAgoQIxiABBgnGIoFwgINEC4YgAQYsQMYFBiHAsICDRAAGIAEGLEDGBQYhwLCAggQABiABBixA8ICBRAAGIAEwgIHECMYJxjqAsICFhAuGIAEGEMYtAIYyAMYigUY6gLYAQLCAgQQIxgnwgILEAAYgAQYsQMYgwHCAgwQLhiABBhDGIoFGArCAg4QLhiABBixAxiDARiKBcICChAAGIAEGEMYigXCAhEQLhiABBixAxjRAxiDARjHAcICDhAuGIAEGLEDGIMBGNQCwgIREC4YgAQYsQMYgwEY1AIYigXCAg4QABiABBixAxiDARiKBcICDxAjGIAEGCcYigUYRhj5AcICJxAAGIAEGIoFGEYY-QEYlwUYjAUY3QQYRhj5ARj0Axj1Axj2A9gBA8ICBBAAGAPCAgcQABiABBgKwgIKEAAYgAQYsQMYCsICDRAAGIAEGLEDGIMBGAqYAwmIBgGQBhO6BgYIARABGAm6BgYIAhABGAi6BgYIAxABGBOSBwg2LjE1LjAuMaAHhvwB&sclient=gws-wiz-serp">O que são Axolotes?</a></li>
+                    <li><a target="_blank" href="https://mundoeducacao.uol.com.br/biologia/axolote-ambystoma-mexicanum.htm#:~:text=%E2%86%92-,Habitat%20do%20axolote,-O%20axolote%20%C3%A9">Habitat</a></li>
+                    <li><a target="_blank" href="https://www.ecycle.com.br/axolote/#:~:text=a%20230%20gramas.-,Estado%20e%20conserva%C3%A7%C3%A3o,-Diversos%20fatores%20foram">Conservação</a></li>
+                </ul>
+            </li>
+            
+        </ul>
+    </nav>
+</header>
+<br>
+
+   <div class="product-container">
+        <div class="image-section">
+            <img id="main-image" src="img/aquario desenho.jfif"  />
+            <div class="thumbnails">
+                <img class="thumbnail" src="img/aquario desenho.jfif" alt="Imagem 1" onclick="changeImage('aquario1.jpg')" />
+                <img class="thumbnail" src="img/fofin.jpg" alt="Imagem 2" onclick="changeImage('aquario2.jpg')" />
+                <img class="thumbnail" src="img/D_NQ_NP_937034-MLB69836382331_062023-O.webp" alt="Imagem 3" onclick="changeImage('aquario3.jpg')" />
+            </div>
+        </div>
+        <div class="details-section">
+            <h1>Aquário Grande</h1>
+            <p class="description">Um aquário grande e elegante, perfeito para suas plantas e peixes favoritos.</p>
+            <p class="price">Preço: R$ 990,70</p>
+            <div class="options">
+                <label for="size">Tamanho:</label>
+                <select id="size">
+                    <option value="100L">100L</option>
+                    <option value="200L">200L</option>
+                    <option value="300L">300L</option>
+                </select>
+                <label for="color">Cor:</label>
+                <select id="color">
+                    <option value="rosa">Rosa</option>
+                    <option value="azul">Azul</option>
+                    <option value="verde">Verde</option>
+                </select>
+            </div>
+            <button class="add-to-cart">Adicionar ao Carrinho</button>
+        </div>
+    </div>
+
+    <div class="comments-section">
+        <h2>Comentários dos Usuários</h2>
+        <div class="comment">
+            <img class="user-photo" src="img/calma ai.jpg" alt="Usuário 1" />
+            <p>Amei o aquário! Ele transformou a minha sala.</p>
+        </div>
+        <div class="comment">
+            <img class="user-photo" src="img/deixa o cabra so.jfif" alt="Usuário 2" />
+            <p>Excelente qualidade e espaço para os peixes!</p>
+        </div>
+        <div class="comment">
+            <img class="user-photo" src="img/castrin de cria.jfif" alt="Usuário 3" />
+            <p>Ótimo design! Meus amigos adoram.</p>
+        </div>
+    </div>
+
+      <!-- Footer Completo -->
+      <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Sobre Nós</h4>
+                <p>Somos apaixonados por axolotes e dedicados a promover sua conservação e bem-estar.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Links Rápidos</h4>
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="http://127.0.0.1:5500/index.html#sobre">Sobre</a></li>
+                    <li><a href="http://127.0.0.1:5500/index.html#produtos">Produtos</a></li>
+                    <li><a href="http://127.0.0.1:5500/index.html#contato">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contato</h4>
+                <p>Email: contato@axolotes.com</p>
+                <p>Telefone: (11) 98765-4321</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Diego da Anunciação Sousa. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+
+    <script src="produto.js"></script>
+</body>
+</html>
